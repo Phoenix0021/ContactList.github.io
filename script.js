@@ -140,7 +140,7 @@ onload = function () {
             if (currentFocus < 0) currentFocus = x.length - 1;
             /*add class "autocomplete-active":*/
             x[currentFocus*2].classList.add("active");
-        };
+        }; 
 
         let removeActive = (x) => {
             /*a function to remove the "active" class from all autocomplete items:*/
