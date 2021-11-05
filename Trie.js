@@ -4,7 +4,7 @@ export { Trie }
 
 class TrieNode{
     constructor(){
-        this.children = Array(20).fill(null);
+        this.children = Array(10).fill(null);
         this.parent = null;
     }
 }
@@ -23,10 +23,10 @@ class Trie {
         this.current = this.root;
 
         let init = [
-            ["Aarnav", "7665884775"],
-            ["Akul", "9457846253"],
-            ["Shriya", "8765321245"],
-            ["Prateek", "9461328745"]
+            ["Aarnav", "766588"],
+            ["Akul", "945784"],
+            ["Shriya", "876532"],
+            ["Prateek", "946745"]
         ];
 
         for(let i=0;i<init.length;i++){
@@ -59,7 +59,7 @@ class Trie {
             return;
         }
 
-        for(let i=0;i<20;i++){
+        for(let i=0;i<10;i++){
             this.findAll(node.children[i]);
         }
     }
