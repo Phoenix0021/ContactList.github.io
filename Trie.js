@@ -1,5 +1,4 @@
 
-
 export { Trie }
 
 class TrieNode{
@@ -23,10 +22,10 @@ class Trie {
         this.current = this.root;
 
         let init = [
-            ["Aarnav", "766588"],
-            ["Akul", "945784"],
-            ["Shriya", "876532"],
-            ["Prateek", "946745"]
+            ["Aarnav", "123456"],
+            ["Akul", "123546"],
+            ["Shriya", "123654"],
+            ["Prateek", "123465"]
         ];
 
         for(let i=0;i<init.length;i++){
