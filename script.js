@@ -57,7 +57,7 @@ onload = function () {
             /*close any already open lists of autocompleted values*/
             closeAllLists();
 
-            if( val.length>=7 )
+            if( val.length>=10 )
                 return;
 
             currentFocus = -1;
