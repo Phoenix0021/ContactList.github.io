@@ -32,7 +32,7 @@ onload = function () {
 
     del.onclick = function () {
         let details = delete_info.value.trim();
-        if(details.length!==6){
+        if(details.length!==10){
             alert("Incorrectly formatted input");
             return;
         }
@@ -83,7 +83,7 @@ onload = function () {
             }
 
             /*for each item in the array...*/
-            for (let i = 0; i < Math.min(arr.length,6) ; i++) {
+            for (let i = 0; i < Math.min(arr.length,10) ; i++) {
                 let item = contact_item.cloneNode(true);
                 // Setting name, message, image to template item
                 item.querySelector('#Name').innerText = arr[i].name;
