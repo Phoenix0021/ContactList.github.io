@@ -21,7 +21,7 @@ onload = function () {
         }
         details[0] = details[0].trim();
         details[1] = details[1].trim();
-        if(details[1].length!==6){
+        if(details[1].length!==10){
             alert("Incorrectly formatted input");
             return;
         }
@@ -140,7 +140,7 @@ onload = function () {
             if (currentFocus < 0) currentFocus = x.length - 1;
             /*add class "autocomplete-active":*/
             x[currentFocus*2].classList.add("active");
-        }; 
+        };
 
         let removeActive = (x) => {
             /*a function to remove the "active" class from all autocomplete items:*/
