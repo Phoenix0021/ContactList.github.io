@@ -1,4 +1,4 @@
-    
+
 import {Trie} from './Trie.js';
 
 onload = function () {
@@ -83,7 +83,7 @@ onload = function () {
             }
 
             /*for each item in the array...*/
-            for (let i = 0; i < Math.min(arr.length,11) ; i++) {
+            for (let i = 0; i < Math.min(arr.length,6) ; i++) {
                 let item = contact_item.cloneNode(true);
                 // Setting name, message, image to template item
                 item.querySelector('#Name').innerText = arr[i].name;
