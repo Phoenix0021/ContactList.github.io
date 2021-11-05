@@ -14,7 +14,7 @@ body {
 
 input {
     border: 1px solid transparent;
-    background-color: #a1b0c7;
+    background-color: #808e9c;
     padding: 10px;
     font-size: 16px;
 }
@@ -26,7 +26,7 @@ input[type=text] {
 
 input[type=submit] {
     background-color: DodgerBlue;
-    color: #fff;
+    color: #a6c4de;
     cursor: pointer;
 }
 
@@ -48,7 +48,7 @@ input[type=submit] {
 
 /*when hovering an item:*/
 .autocomplete-items :hover {
-    background-color: #a1b0c7;
+    background-color: #ccd7e0;
 }
 
 /*when navigating through the items using the arrow keys:*/
